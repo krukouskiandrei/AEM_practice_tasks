@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1505999850782
+Build-Jdk: 1.8.0_111
+Built-By: Andrei_Krukouski
+Bundle-Description: Maven Multimodule project for My ConfigExample.
+Bundle-ManifestVersion: 2
+Bundle-Name: My ConfigExample Bundle
+Bundle-SymbolicName: com.adobe.cq.sling.configexample-bundle
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: api;version="1.0.0.SNAPSHOT",community;uses:="javax.serv
+ let,models,org.slf4j,org.apache.sling.api,org.apache.sling.api.resource
+ ,api,org.apache.sling.api.servlets";version="1.0.0.SNAPSHOT",models;use
+ s:="org.apache.sling.models.annotations.injectorspecific,org.apache.sli
+ ng.models.annotations,api,org.apache.sling.api.resource,javax.inject";v
+ ersion="1.0.0.SNAPSHOT"
+Import-Package: api,javax.inject;version="1.0.0",javax.servlet,org.apach
+ e.sling.api;version="[2.1,3)",org.apache.sling.api.resource;version="[2
+ .1,3)",org.apache.sling.api.servlets;version="[2.1,3)",org.apache.sling
+ .commons.osgi;version="[2.4,3)",org.apache.sling.models.annotations;ver
+ sion="[1.1,2)",org.apache.sling.models.annotations.injectorspecific;ver
+ sion="[1.0,2)",org.slf4j;version="[1.5,2)"
+Service-Component: OSGI-INF/serviceComponents.xml
+Sling-Model-Packages: models
+Tool: Bnd-1.50.0

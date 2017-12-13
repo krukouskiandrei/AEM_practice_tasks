@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" immediate="true" name="com.adobe.cq.sling.impl.MyConfigurationServiceImpl" activate="activate">
+        <implementation class="com.adobe.cq.sling.impl.MyConfigurationServiceImpl"/>
+        <service servicefactory="false">
+            <provide interface="api.MyConfigurationService"/>
+        </service>
+        <property name="mymultifield" private="false"/>
+        <property name="mysinglefield" private="false"/>
+        <property name="service.pid" value="com.adobe.cq.sling.impl.MyConfigurationServiceImpl" private="false"/>
+    </scr:component>
+    <scr:component enabled="true" name="community.SlingModels">
+        <implementation class="community.SlingModels"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths" value="/bin/slingmodel" private="false"/>
+        <property name="sling.servlet.methods" value="GET" private="false"/>
+        <property name="service.pid" value="community.SlingModels" private="false"/>
+        <reference name="resourceResolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" cardinality="1..1" policy="static" bind="bindResourceResolverFactory" unbind="unbindResourceResolverFactory" checked="true" strategy="event"/>
+        <reference name="myConfigurationService" interface="api.MyConfigurationService" cardinality="1..1" policy="static" bind="bindMyConfigurationService" unbind="unbindMyConfigurationService" checked="true" strategy="event"/>
+    </scr:component>
+</components>

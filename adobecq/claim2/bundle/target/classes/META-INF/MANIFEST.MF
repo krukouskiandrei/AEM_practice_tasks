@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1505222672162
+Build-Jdk: 1.8.0_111
+Built-By: Andrei_Krukouski
+Bundle-Description: Maven Multimodule project for My Project.
+Bundle-ManifestVersion: 2
+Bundle-Name: My Project Bundle
+Bundle-SymbolicName: com.adobe.cq.sling.claim2-bundle
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.adobe.cq.sling;uses:="org.slf4j,org.apache.sling.api
+ ,org.apache.sling.api.servlets";version="1.0.0.SNAPSHOT"
+Import-Package: org.apache.sling.api;version="[2.0,3)",org.apache.sling.
+ api.servlets;version="[2.0,3)",org.slf4j;version="[1.5,2)"
+Service-Component: OSGI-INF/serviceComponents.xml
+Tool: Bnd-1.50.0

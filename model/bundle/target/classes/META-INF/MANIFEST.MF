@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1505490807971
+Build-Jdk: 1.8.0_111
+Built-By: Andrei_Krukouski
+Bundle-Description: Maven Multimodule project for My Project.
+Bundle-ManifestVersion: 2
+Bundle-Name: adobe Bundle
+Bundle-SymbolicName: org.kalyan.poc.sling.poc-bundle
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.adobe.aem.community;uses:="javax.servlet,org.slf4j,o
+ rg.kalyan.poc.sling.models,org.apache.sling.api,org.apache.sling.api.re
+ source,org.apache.sling.api.servlets";version="1.0.0.SNAPSHOT",org.kaly
+ an.poc.sling.models;uses:="org.apache.sling.models.annotations,org.apac
+ he.sling.api.resource,javax.inject";version="1.0.0.SNAPSHOT"
+Import-Package: javax.inject;version="0.0.0",javax.servlet,org.apache.sl
+ ing.api;version="[2.3,3)",org.apache.sling.api.resource;version="[2.5,3
+ )",org.apache.sling.api.servlets;version="[2.1,3)",org.apache.sling.mod
+ els.annotations;version="[1.0,2)",org.slf4j;version="[1.5,2)"
+Service-Component: OSGI-INF/serviceComponents.xml
+Sling-Model-Packages: org.kalyan.poc.sling.models
+Tool: Bnd-1.50.0

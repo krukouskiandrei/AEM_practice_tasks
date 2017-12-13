@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="true" name="com.adobe.aem.community.SlingModels">
+        <implementation class="com.adobe.aem.community.SlingModels"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.paths" value="/bin/slingmodel" private="false"/>
+        <property name="sling.servlet.methods" value="GET" private="false"/>
+        <property name="service.pid" value="com.adobe.aem.community.SlingModels" private="false"/>
+        <reference name="resourceResolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" cardinality="1..1" policy="static" bind="bindResourceResolverFactory" unbind="unbindResourceResolverFactory" checked="true" strategy="event"/>
+    </scr:component>
+</components>

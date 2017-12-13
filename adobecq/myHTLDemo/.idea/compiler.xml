@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="myHTLDemo.core" />
+        <module name="myHTLDemo.it.launcher" />
+        <module name="myHTLDemo.it.tests" />
+        <module name="myHTLDemo.ui.apps" />
+        <module name="myHTLDemo.ui.content" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="myHTLDemo" target="1.6" />
+      <module name="myHTLDemo.core" target="1.6" />
+      <module name="myHTLDemo.it.launcher" target="1.6" />
+      <module name="myHTLDemo.it.tests" target="1.6" />
+      <module name="myHTLDemo.ui.apps" target="1.6" />
+      <module name="myHTLDemo.ui.content" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

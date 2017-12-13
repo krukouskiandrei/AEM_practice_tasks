@@ -1,0 +1,8 @@
+com\community\htl\core\schedulers\SimpleScheduledTask.class
+com\community\htl\core\HeroTextBean.class
+com\community\htl\core\listeners\SimpleResourceListener.class
+com\community\htl\core\package-info.class
+com\community\htl\core\filters\LoggingFilter.class
+com\community\htl\core\HeroTextComponent.class
+com\community\htl\core\models\HelloWorldModel.class
+com\community\htl\core\servlets\SimpleServlet.class

@@ -1,0 +1,5 @@
+com\adobe\cq\sling\impl\MyConfigurationServiceImpl.class
+models\AemSlingModel.class
+community\SlingModels.class
+api\MyConfigurationService.class
+models\UserInfo.class

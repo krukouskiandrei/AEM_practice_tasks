@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/myconfigexample/config"/>
+    <filter root="/apps/myconfigexample/config.author"/>
+    <filter root="/apps/myconfigexample/config.publish"/>
+    <filter root="/apps/myconfigexample/install"/>
+</workspaceFilter>

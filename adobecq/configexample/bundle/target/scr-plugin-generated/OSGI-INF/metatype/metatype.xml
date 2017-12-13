@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="com.adobe.cq.sling.impl.MyConfigurationServiceImpl" name="My Example Configuration Service" description="%com.adobe.cq.sling.impl.MyConfigurationServiceImpl.description">
+        <AD id="mymultifield" type="String" name="My Multi String" description="Example for Multi field config" cardinality="2147483647"/>
+        <AD id="mysinglefield" type="String" name="My Single String" description="Example for Simple text field config"/>
+    </OCD>
+    <Designate pid="com.adobe.cq.sling.impl.MyConfigurationServiceImpl">
+        <Object ocdref="com.adobe.cq.sling.impl.MyConfigurationServiceImpl"/>
+    </Designate>
+</metatype:MetaData>

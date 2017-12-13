@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>myHTLDemo - UI content</comment>
+<entry key="createdBy">Andrei_Krukouski</entry>
+<entry key="name">myHTLDemo.ui.content</entry>
+<entry key="created">2017-09-06T17:04:30.762+0300</entry>
+<entry key="groupId">myHTLDemo</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">myHTLDemo</entry>
+<entry key="description">UI content package for myHTLDemo</entry>
+<entry key="artifactId">myHTLDemo.ui.content</entry>
+<entry key="path">/etc/packages/myHTLDemo/myHTLDemo.ui.content.zip</entry>
+</properties>
